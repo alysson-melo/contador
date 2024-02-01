@@ -16,10 +16,9 @@ function contar() {
         let p = Number(txtp.value)
         if (p <= 0) {
             alert('Passo inválido, iremos considerar isso como "passo 1"')
+            p = 1
         }
-
-        p = 1
-
+
         res.innerHTML = ''
 
         if (i < f) {
